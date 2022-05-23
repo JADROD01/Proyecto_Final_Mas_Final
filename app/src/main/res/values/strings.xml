@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Avance</string>
+    <string name="IB">Huella digital</string>
+    <string name="IB_l">Logo</string>
+    <string name="Email">Correo Electronico</string>
+    <string name="Password">Contraseña</string>
+</resources>
