@@ -11,7 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="53dp"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal">
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +22,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="364dp"
+            android:layout_height="317dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -50,11 +52,11 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/Btn_ingresar"
+                    android:id="@+id/Btn_ver_perfil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Editar Perfil" />
+                    android:text="Ver Perfil" />
 
             </LinearLayout>
 
@@ -65,9 +67,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="459dp"
-        android:layout_height="250dp"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
         android:text="Su saldo es:" />
 
     <TextView
@@ -80,21 +80,21 @@
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
+        android:layout_height="wrap_content"
         android:text="$1.700.000,00"
         android:textSize="34sp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:text="Total"
         android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
-        android:layout_height="139dp"
+        android:layout_height="wrap_content"
         android:text="$1.800.000,00"
         android:textSize="34sp" />
 
@@ -109,7 +109,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView20"
                 android:layout_width="194dp"
                 android:layout_height="41dp"
                 app:srcCompat="@drawable/ajustes" />
@@ -157,7 +157,7 @@
                 app:srcCompat="@drawable/salir" />
 
             <Button
-                android:id="@+id/Btn_ingresar"
+                android:id="@+id/Btn_salir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

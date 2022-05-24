@@ -10,8 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Final">
         <activity
-            android:name=".Profile"
+            android:name=".vista.Principal"
             android:exported="false" />
+        <activity
+            android:name=".vista.Registrer"
+            android:exported="false" />
+        <activity
+            android:name=".vista.Profile"
+            android:exported="false"></activity>
         <activity
             android:name=".vista.Inicio"
             android:exported="true">
@@ -23,7 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

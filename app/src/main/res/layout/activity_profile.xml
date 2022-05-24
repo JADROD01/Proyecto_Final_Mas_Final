@@ -19,6 +19,12 @@
         android:textColor="@color/purple_500"
         android:textSize="24sp" />
 
+    <Button
+        android:id="@+id/Btn_Atras"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Atras" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -140,7 +146,7 @@
                     app:srcCompat="@drawable/salir" />
 
                 <Button
-                    android:id="@+id/Btn_ingresar"
+                    android:id="@+id/Btn_salir2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

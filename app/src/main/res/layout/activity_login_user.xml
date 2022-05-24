@@ -35,11 +35,11 @@
                 app:srcCompat="@drawable/email" />
 
             <EditText
-                android:id="@+id/ET_Email"
+                android:id="@+id/ET_User"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:hint="@string/Email"
+                android:hint="@string/User"
                 android:inputType="textEmailAddress" />
 
         </LinearLayout>
@@ -75,13 +75,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="30dp">
+            android:paddingTop="25dp">
 
             <Button
                 android:id="@+id/Btn_ingresar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="Ingresar" />
+
+            <Button
+                android:id="@+id/Btn_registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registrar" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -2,6 +2,19 @@
     <string name="app_name">Avance</string>
     <string name="IB">Huella digital</string>
     <string name="IB_l">Logo</string>
-    <string name="Email">Correo Electronico</string>
+    <string name="User">Usuarios</string>
     <string name="Password">Contraseña</string>
+    <string name="tVTittle">Users´s Register</string>
+    <string name="eTDocument">Document</string>
+    <string name="eTNames">Names</string>
+    <string name="eTLastNames">Last Names</string>
+    <string name="eTUserName">User Name</string>
+    <string name="eTPassword">Password</string>
+    <string name="eTrePassword">Confirm Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnList">List</string>
+    <string name="btnCleanFields">Clean</string>
+    <string name="tvName">Nombre Cuenta</string>
+    <string name="tvUrl">Url</string>
 </resources>
