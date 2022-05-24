@@ -37,11 +37,10 @@
                     app:srcCompat="@drawable/user" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/bienvenido"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Bienvenido Javier!"
                     android:textSize="24sp" />
 
             </LinearLayout>
@@ -66,14 +65,14 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="459dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Su saldo es:" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:text="Disponible"
         android:textSize="24sp" />
 
@@ -133,14 +132,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/informacion" />
+                app:srcCompat="@drawable/informacion"/>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="87dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Información" />
+                android:text="Lista de bancos" />
 
         </LinearLayout>
 
